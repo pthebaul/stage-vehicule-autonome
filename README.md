@@ -175,9 +175,8 @@ $ rosrun tf2_ros static_transform_publisher x y z yaw pitch roll id_parent id_en
 ```
 
 ### Relation entre la caméra et le lidar
-Pour rapidement voir les données des deux capteurs se superposer, il est possible de poser la caméra sur le lidar de manière orthogonale. Il suffit ensuite de noter l'angle en radians, comme le montre le schéma suivant.
-
-(_note: ajouter le schéma_)
+Pour rapidement voir les données des deux capteurs se superposer, il est possible de poser la caméra sur le lidar de manière orthogonale. Il suffit ensuite de noter l'angle en radians, comme le montre le schéma suivant :
+![Schéma d'explication](schema_lidar_camera.png)
 
 La commande pour `tf2` est alors :
 ```
