@@ -130,7 +130,7 @@ Ce _package_ implémente un nœud ROS bien documenté sur [la page du wiki de RO
 
 ### Calibration
 Les caméras doivent être calibrées afin de corriger les éventuels distorsions. Pour cela, il faut utiliser [ce _package_ ROS](https://wiki.ros.org/camera_calibration), et un damier. Lorsque la caméra aura suffisamment filmé le damier dans des positions variées, le _package_ s'occupera de calculer les distorsions, et d'en générer un fichier utilisable par ROS.
-J'ai déjà effectué la calibration de la caméra USB. (_note: ajouter le fichier de calibration_)
+J'ai déjà effectué la calibration de la caméra USB, et les fichiers sont disponibles sur ce dépôt.
 
 ## Lidar
 
