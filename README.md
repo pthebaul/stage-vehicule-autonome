@@ -1,5 +1,5 @@
 # Documentation de stage - Paul Thebault - Été 2021
-## _Détection et prédiction d'obstacles avec caméra et lidar_
+### _Détection et prédiction d'obstacles avec caméra et lidar_
 
 Stage de 4e année informatique à l'INSA Toulouse, effectué dans le département Génie Électronique et Informatique
 
@@ -185,3 +185,28 @@ $ rosrun tf2_ros static_transform_publisher 0 0 0 -1.57 0 <rotation> rslidar usb
 Note : -1,57 est ici une valeur approchée de pi, à affiner à votre convenance.
 
 La manière idéale de définir cette relation entre capteurs serait de procéder à une calibration. Comme pour la caméra, cela consistera à utiliser un _package_ ainsi qu'un damier ou un ARTag. Je n'ai pas effectué cette calibration, mais deux _packages_ semblent prometteur pour cette opération : [celui de heethesh](https://github.com/heethesh/lidar_camera_calibration) et [celui de ankitdhall](https://github.com/ankitdhall/lidar_camera_calibration).
+
+
+## Bibliographie
+
+### Sur la prédiction de trajectoires piétonnes
+Papiers et recueils utilisés :
+- https://github.com/jiachenli94/Awesome-Interaction-aware-Trajectory-Prediction
+- https://github.com/xuehaouwa/Awesome-Trajectory-Prediction
+- https://arxiv.org/abs/1905.06113
+- https://arxiv.org/abs/1809.00696
+- https://www.cs.cmu.edu/~jiyanpan/papers/lncs06.pdf
+- https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A953092&dswid=-8253
+- https://www.researchgate.net/figure/The-Predictive-Mobile-Target-Tracking-algorithm-process_fig2_310795552
+- https://www-sciencedirect-com.gorgone.univ-toulouse.fr/science/article/pii/S0262885618300283
+
+[_note : convertir la biblio en Markdown_]
+
+### Sur les LSTM
+- https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=279181
+- https://penseeartificielle.fr/comprendre-lstm-gru-fonctionnement-schema/
+- https://medium.com/smileinnovation/lstm-intelligence-artificielle
+- https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/
+- https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation
+
+[_note : ajouter la présentation sur les LSTM_]
