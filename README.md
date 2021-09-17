@@ -186,6 +186,13 @@ Note : -1,57 est ici une valeur approchée de pi, à affiner à votre convenance
 
 La manière idéale de définir cette relation entre capteurs serait de procéder à une calibration. Comme pour la caméra, cela consistera à utiliser un _package_ ainsi qu'un damier ou un ARTag. Je n'ai pas effectué cette calibration, mais deux _packages_ semblent prometteur pour cette opération : [celui de heethesh](https://github.com/heethesh/lidar_camera_calibration) et [celui de ankitdhall](https://github.com/ankitdhall/lidar_camera_calibration).
 
+## Jetson Inference
+
+[Jetson Inference](https://github.com/dusty-nv/jetson-inference) est une librairie de _machine learning_ optimisée pour les cartes embarquées NVIDIA. Elle contient des modèles pour la classification et la détection d'objets, la segmentation d'image, l'estimation de postures humaines, et l'estimation des profondeurs d'une image monoculaire.
+
+L'outil `detectNet` semble être très bien adapté pour ce que l'on veut faire.
+
+Voir aussi cet autre lien : https://developer.nvidia.com/embedded/twodaystoademo
 
 ## Bibliographie
 
