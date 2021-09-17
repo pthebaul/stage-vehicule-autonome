@@ -217,3 +217,23 @@ Le résumé d'une étude de certains de ces papiers est disponible dans le fichi
 - https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation
 
 Un court diaporama illustré sur les LSTM est disponible dans le fichier [LSTM.pptx](LSTM.pptx).
+
+## Autres liens utiles
+
+### [PCL](https://pointclouds.org)
+
+PCL (Point Cloud Library) est une librarie open-source utilisée pour le traitement de nuages de points, comme ceux produits par le lidar.
+
+### [OpenCV](https://opencv.org)
+
+OpenCV (Open Computer Vision) est une librairie open-source utilisée pour le traitement d'image en temps réel.
+
+### [Simulateur LG SVL](https://www.svlsimulator.com)
+
+Simulateur fait pour la robotique, qui peut être utilisé avec ROS.
+
+### [GitHub de SIEC 2020](https://github.com/siec2020)
+
+Des travaux y ont été faits en rapport avec ce stage, notamment l'utilisation de ROS et du simulateur LG SVL.
+
+Voir aussi la page de tous les projets de SIEC : https://sites.google.com/site/projetsecinsa/
