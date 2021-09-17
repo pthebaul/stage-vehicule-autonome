@@ -200,7 +200,7 @@ Papiers et recueils utilisés :
 - https://www.researchgate.net/figure/The-Predictive-Mobile-Target-Tracking-algorithm-process_fig2_310795552
 - https://www-sciencedirect-com.gorgone.univ-toulouse.fr/science/article/pii/S0262885618300283
 
-[_note : convertir la biblio en Markdown_]
+Le résumé d'une étude de certains de ces papiers est disponible dans le fichier [bibliographie.md](bibliographie.md).
 
 ### Sur les LSTM
 - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=279181
@@ -209,4 +209,4 @@ Papiers et recueils utilisés :
 - https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/
 - https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation
 
-[_note : ajouter la présentation sur les LSTM_]
+Un court diaporama illustré sur les LSTM est disponible dans le fichier [LSTM.pptx](LSTM.pptx).
